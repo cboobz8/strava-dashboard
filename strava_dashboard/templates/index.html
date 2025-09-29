@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strava Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Dad dy Racing Dashboard</h1>
+    <button id="connectBtn">Connect to Strava</button>
+    <div id="activities"></div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
